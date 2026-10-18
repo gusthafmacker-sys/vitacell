@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="VitaCell: pantallas, repuestos y servicio técnico de celulares. Venta al por menor y mayor para técnicos y tiendas."
+  >
+
+  <title>VitaCell | Pantallas, repuestos y servicio técnico</title>
+</head>
+
+<body>
+
+  <!-- Encabezado y menú principal -->
+  <header>
+  <a href="#inicio" aria-label="VitaCell, ir al inicio">
+    <img src="images/VITACELL.jpg" alt="Logo VitaCell">
+  </a>
+
+<button
+  id="boton-menu"
+  type="button"
+  aria-controls="menu-principal"
+  aria-expanded="false"
+  hidden
+>
+  Menú
+</button>
+
+<nav id="menu-principal" aria-label="Menú principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#mecanico">Pantallas Mecánico</a></li>
+        <li><a href="#mayorista">Venta mayorista</a></li>
+        <li><a href="#servicio-tecnico">Servicio técnico</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+
+    <section id="inicio" class="inicio-slider">
+
+  <div class="inicio-slide activo slide-1">
+
+  <div class="slide-contenido">
+
+    <div class="slide-texto">
+      <span class="inicio-etiqueta">VITACELL</span>
+
+      <h1>Bienvenido a VitaCell</h1>
+
+      <p>
+        Pantallas, repuestos y soluciones para tu celular.
+      </p>
+
+      <div class="inicio-botones">
+        <a href="#catalogo" class="boton-icono">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L20 8H7"></path>
+    <circle cx="10" cy="20" r="1"></circle>
+    <circle cx="18" cy="20" r="1"></circle>
+  </svg>
+
+  <span>Explorar catálogo</span>
+  <strong>›</strong>
+</a>
+
+<a href="#mayorista" class="boton-icono">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 3 4 7v10l8 4 8-4V7z"></path>
+    <path d="m4 7 8 4 8-4"></path>
+    <path d="M12 11v10"></path>
+  </svg>
+
+  <span>Venta mayorista</span>
+  <strong>›</strong>
+</a>
+      </div>
+    </div>
+
+    <div class="slide-producto">
+      <img
+        src="images/pantalla.png"
+        alt="Pantalla VitaCell"
+      >
+    </div>
+
+  </div>
+
+</div>
+
+  <div class="inicio-slide slide-2">
+
+  <span class="inicio-etiqueta">ENCUENTRA TU MODELO</span>
+
+  <h2 class="titulo-slide2">
+    Devuélvele el color a tu
+    <span id="marca-dinamica">Samsung</span>
+  </h2>
+
+  <p>
+    Encuentra pantallas y repuestos para las principales marcas.
+  </p>
+
+  <div class="inicio-chips">
+    <span>Samsung</span>
+    <span>iPhone</span>
+    <span>Redmi</span>
+    <span>Huawei</span>
+    <span>OPPO</span>
+    <span>realme</span>
+    <span>ZTE</span>
+  </div>
+
+</div>
+
+  <!-- SLIDE 3 -->
+<div class="inicio-slide slide-3">
+
+  <span class="inicio-etiqueta">
+    CALIDADES PARA CADA REPARACIÓN
+  </span>
+
+  <h2>
+    Elige la calidad ideal para tu cliente.
+  </h2>
+
+  <p>
+    Contamos con diferentes opciones según rendimiento,
+    presupuesto y experiencia de uso.
+  </p>
+
+  <div class="inicio-calidades">
+
+    <div class="calidad-card">
+      <span>01</span>
+      <strong>AMOLED</strong>
+      <small>Color intenso y excelente contraste</small>
+    </div>
+
+    <div class="calidad-card">
+      <span>02</span>
+      <strong>INCELL</strong>
+      <small>Buena calidad a precio accesible</small>
+    </div>
+
+    <div class="calidad-card calidad-t20">
+      <span>03</span>
+      <strong>T20</strong>
+      <small>Calidad exclusiva de pantallas Mecánico</small>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- SLIDE 4 -->
+<div class="inicio-slide slide-4">
+
+  <div class="slide4-contenido">
+
+    <div class="slide4-texto">
+
+      <span class="inicio-etiqueta">
+        VITACELL × MECÁNICO
+      </span>
+
+      <h2>
+        Únete a la comunidad
+        <span>VitaCell</span>
+      </h2>
+
+      <p>
+        Nuevos ingresos, promociones, pruebas de pantallas
+        y contenido pensado para técnicos.
+      </p>
+
+      <div class="slide4-beneficios">
+        <span>📦 Nuevos ingresos</span>
+        <span>🔥 Promociones</span>
+        <span>🔧 Contenido técnico</span>
+      </div>
+
+    </div>
+
+    <div class="slide4-redes">
+
+      <a
+  href="https://web.facebook.com/profile.php?id=61588507380486&locale=es_LA"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="red-social"
+>
+  <div class="red-social-info">
+
+    <img
+      src="images/facebook-icon.png"
+      alt=""
+      class="icono-red-img"
+    >
+
+    <div class="red-social-texto">
+      <strong>Facebook</strong>
+      <span>Vita Cell</span>
+    </div>
+
+  </div>
+</a>
+
+      <a
+  href="https://www.instagram.com/vitacell_aqp/"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="red-social"
+>
+  <div class="red-social-info">
+
+    <img
+      src="images/instagram-icon.png"
+      alt=""
+      class="icono-red-img"
+    >
+
+    <div class="red-social-texto">
+      <strong>Instagram</strong>
+      <span>@vitacell_aqp</span>
+    </div>
+
+  </div>
+</a>
+
+      <a
+  href="https://www.tiktok.com/@vitacell_aqp?is_from_webapp=1&sender_device=pc"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="red-social"
+>
+  <div class="red-social-info">
+
+    <img
+      src="images/tictok-icon.png"
+      alt=""
+      class="icono-red-img"
+    >
+
+    <div class="red-social-texto">
+      <strong>TikTok</strong>
+      <span>@vitacell_aqp</span>
+    </div>
+
+  </div>
+</a>
+
+    </div>
+
+  </div>
+
+</div>
+
+  <div class="inicio-indicadores">
+    <button class="indicador activo" type="button"></button>
+    <button class="indicador" type="button"></button>
+    <button class="indicador" type="button"></button>
+    <button class="indicador" type="button"></button>
+  </div>
+
+</section>
+
+    <section id="catalogo">
+  <h2>Catálogo de repuestos</h2>
+
+  <p>
+    Busca por modelo, marca o calidad.
+    Estos productos son ejemplos para probar la página;
+    todavía no representan nuestro stock real.
+  </p>
+
+  <div class="catalogo-controles">
+    <div>
+      <label for="buscador">Buscar producto</label>
+      <input
+        id="buscador"
+        type="search"
+        placeholder="Ejemplo: Samsung, A15, AMOLED..."
+      >
+    </div>
+    <div>
+      <label for="filtro-marca">Filtrar por marca</label>
+      <select id="filtro-marca">
+        <option value="">Todas las marcas</option>
+      </select>
+    </div>
+    <div>
+  <label for="filtro-serie">Filtrar por serie</label>
+  <select id="filtro-serie">
+    <option value="">Todas las series</option>
+  </select>
+</div>
+
+<div>
+  <label for="filtro-calidad">Filtrar por calidad</label>
+  <select id="filtro-calidad">
+    <option value="">Todas las calidades</option>
+  </select>
+</div>
+  </div>
+
+  <p id="resultado-catalogo" role="status"></p>
+
+  <div id="lista-productos" class="productos-grid"></div>
+
+  <noscript>
+    Activa JavaScript en tu navegador para consultar el catálogo.
+  </noscript>
+</section>
+
+    <section id="mecanico">
+      <h2>Pantallas Mecánico</h2>
+
+      <p>
+        Conoce nuestra oferta de pantallas Mecánico y consulta
+        las opciones disponibles para el modelo que necesitas.
+      </p>
+
+      <p>
+        Nuestro catálogo incluirá opciones como T20, AMOLED,
+        AM, Incell y originales, según el producto y su disponibilidad.
+      </p>
+    </section>
+
+    <section id="mayorista">
+      <h2>Venta mayorista</h2>
+
+      <p>
+        Abastece tu negocio con pantallas y repuestos para celulares.
+        Atendemos consultas de técnicos y tiendas de Arequipa
+        y provincias.
+      </p>
+
+      <a href="#contacto">Consultar por compras al por mayor</a>
+    </section>
+
+    <section id="servicio-tecnico">
+      <h2>Servicio técnico de celulares</h2>
+
+      <p>
+        Cuéntanos qué falla presenta tu equipo para orientarte
+        sobre su revisión.
+      </p>
+
+      <ul>
+        <li>Diagnóstico de fallas.</li>
+        <li>Cambio de pantallas.</li>
+        <li>Cambio de baterías y otros componentes.</li>
+        <li>Reparación de celulares.</li>
+      </ul>
+
+      <a href="#contacto">Consultar por una reparación</a>
+    </section>
+
+    <section id="nosotros">
+      <h2>Nosotros</h2>
+
+      <p>
+        Somos VitaCell, un negocio dedicado a la venta de
+        repuestos y al servicio técnico de celulares en Arequipa.
+        Trabajamos con usuarios, técnicos y tiendas.
+      </p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+
+      <p>
+        Consulta por el repuesto que necesitas, compras mayoristas
+        o la revisión de tu celular.
+      </p>
+
+      <p>Redes sociales: @vitacell_aqp</p>
+      <p>Ubicación: Arequipa, Perú.</p>
+
+<button id="whatsapp-contacto" class="boton-accion" type="button" disabled>
+  Consultar por WhatsApp
+</button>
+
+<p id="aviso-whatsapp"></p>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2026 VitaCell. Todos los derechos reservados.</p>
+  </footer>
+<script src="productos/productos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
