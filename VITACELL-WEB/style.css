@@ -1200,7 +1200,7 @@ header img {
       rgba(0, 15, 45, 0.20),
       rgba(0, 15, 45, 0.20)
     ),
-    url("images/primer-slide.png");
+    url("Images/primer-slide.png");
 
   background-size: cover;
   background-position: center;
@@ -1210,7 +1210,7 @@ header img {
   padding: 30px;
 }
 .slide-1 {
-  background-image: url("images/fondo-slide1.png");
+  background-image: url("Images/fondo-slide1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1239,7 +1239,7 @@ header img {
       rgba(3, 18, 48, 0.18) 72%,
       rgba(3, 18, 48, 0.05) 100%
     ),
-    url("images/fondo-slide1.png");
+    url("Images/fondo-slide1.png");
 
   background-size: cover;
   background-position: center;
@@ -1383,7 +1383,7 @@ header img {
       rgba(3, 18, 48, 0.65) 45%,
       rgba(3, 18, 48, 0.08) 100%
     ),
-    url("images/fondo-slide2.png");
+    url("Images/fondo-slide2.png");
 
   background-size: cover;
   background-position: center;
@@ -1613,7 +1613,7 @@ header img {
       rgba(2, 15, 40, 0.18) 75%,
       rgba(2, 15, 40, 0.05) 100%
     ),
-    url("images/fondo-slide3.png");
+    url("Images/fondo-slide3.png");
 
   background-size: cover;
   background-position: center;
@@ -1639,7 +1639,7 @@ header img {
       rgba(2, 15, 40, 0.22) 72%,
       rgba(2, 15, 40, 0.08) 100%
     ),
-    url("images/fondo-slide4.png");
+    url("Images/fondo-slide4.png");
 
   background-size: cover;
   background-position: center;
